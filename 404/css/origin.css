@@ -1,0 +1,31 @@
+/*変数定義*/
+:root{
+  --textcolor:var(--bs-dark)
+}
+
+/*クリック時ボタンの色変化*/
+.active1{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+
+.active2{
+  background-color: #198754;
+  color: var(--textcolor);
+}
+
+.active3{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+
+/*専門科目*/
+.active4{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+
+.active5{
+  background-color: #dc3545;
+  color: var(--textcolor);
+}

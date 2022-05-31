@@ -1,0 +1,511 @@
+/*変数定義*/
+:root{
+  --textcolor:var(--bs-dark)
+}
+
+/*クリック時ボタンの色変化*/
+#but1.active1{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but2.active2{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but3.active3{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but4.active4{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but5.active5{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but6.active6{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but7.active7{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but8.active8{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but9.active9{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but10.active10{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but11.active11{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but12.active12{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but13.active13{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but14.active14{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but15.active15{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but15.active15{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but16.active16{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but17.active17{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but18.active18{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but19.active19{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but20.active20{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but21.active21{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but22.active22{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but23.active23{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but24.active24{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but25.active25{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but26.active26{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but27.active27{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but28.active28{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but29.active29{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but30.active30{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but31.active31{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but32.active32{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but33.active33{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but34.active34{
+  background-color: #0dcaf0;
+  color: var(--textcolor);
+}
+#but35.active35{
+  background-color: #198754;
+  color: var(--textcolor);
+}
+#but36.active36{
+  background-color: #198754;
+  color: var(--textcolor);
+}
+#but37.active37{
+  background-color: #198754;
+  color: var(--textcolor);
+}
+#but38.active38{
+  background-color: #198754;
+  color: var(--textcolor);
+}
+#but39.active39{
+  background-color: #198754;
+  color: var(--textcolor);
+}
+#but40.active40{
+  background-color: #198754;
+  color: var(--textcolor);
+}
+#but41.active41{
+  background-color: #198754;
+  color: var(--textcolor);
+}
+#but42.active42{
+  background-color: #198754;
+  color: var(--textcolor);
+}
+#but43.active43{
+  background-color: #198754;
+  color: var(--textcolor);
+}
+#but44.active44{
+  background-color: #198754;
+  color: var(--textcolor);
+}
+#but45.active45{
+  background-color: #198754;
+  color: var(--textcolor);
+}
+#but46.active46{
+  background-color: #198754;
+  color: var(--textcolor);
+}
+#but47.active47{
+  background-color: #198754;
+  color: var(--textcolor);
+}
+#but48.active48{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but49.active49{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but50.active50{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but51.active51{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but52.active52{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but53.active53{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but54.active54{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but55.active55{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but56.active56{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but57.active57{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but58.active58{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but59.active59{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but60.active60{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but61.active61{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but62.active62{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but63.active63{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but64.active64{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but65.active65{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but66.active66{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but67.active67{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+#but68.active68{
+  background-color: #ffc107;
+  color: var(--textcolor);
+}
+/*専門科目*/
+#but69.active69{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but70.active70{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but71.active71{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but72.active72{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but73.active73{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but74.active74{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but75.active75{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but76.active76{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but77.active77{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but78.active78{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but79.active79{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but80.active80{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but81.active81{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but82.active82{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but83.active83{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but84.active84{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but85.active85{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but86.active86{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but87.active87{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but88.active88{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but89.active89{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but90.active90{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but91.active91{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but92.active92{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but93.active93{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but94.active94{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but95.active95{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but96.active96{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but97.active97{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but98.active98{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but99.active99{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but100.active100{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but101.active101{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but102.active102{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but103.active103{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but104.active104{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but105.active105{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but106.active106{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but107.active107{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but108.active108{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but109.active109{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but110.active110{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but111.active111{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but112.active112{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but113.active113{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but114.active114{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but115.active115{
+  background-color: #0d6efd;
+  color: var(--textcolor);
+}
+#but116.active116{
+  background-color: #dc3545;
+  color: var(--textcolor);
+}
+#but117.active117{
+  background-color: #dc3545;
+  color: var(--textcolor);
+}
+#but118.active118{
+  background-color: #dc3545;
+  color: var(--textcolor);
+}
+#but119.active119{
+  background-color: #dc3545;
+  color: var(--textcolor);
+}
+#but120.active120{
+  background-color: #dc3545;
+  color: var(--textcolor);
+}
+#but121.active121{
+  background-color: #dc3545;
+  color: var(--textcolor);
+}
+#but122.active122{
+  background-color: #dc3545;
+  color: var(--textcolor);
+}
+#but123.active123{
+  background-color: #dc3545;
+  color: var(--textcolor);
+}
+#but124.active124{
+  background-color: #dc3545;
+  color: var(--textcolor);
+}
+#but125.active125{
+  background-color: #dc3545;
+  color: var(--textcolor);
+}

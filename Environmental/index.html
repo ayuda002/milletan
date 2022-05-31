@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <!--CSSファイル-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/origin.css">
+  <title>ミレ単 環境・社会基盤工学科</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        環境・社会基盤工学科
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo"
+        aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo">
+        <ul class="navbar-nav ml-auto mr-sm-2 mt-2 mt-lg-0">
+          <li class="nav-item active mr-3">
+            <a class="nav-link" href="https://twitter.com/Millennium_Zone"><i class="fab fa-twitter"></i> Twitter</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="https://www.instagram.com/tpu_market/?hl=ja"><i class="fab fa-instagram"></i>
+              Instagram</a>
+          </li>
+          <!--
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#">Our Work</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+          -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="js-scroll-to-section" class="u-content-space-top">
+    <div class="container">
+      <header class="w-md-50 mx-auto text-center">
+        <h2 class="h1 font-weight-light mb-1">ミレ単</h2>
+        <p>取得した科目のボタンをクリックしてください！</p>
+        <p class="text-danger">！！現在保存機能は備わっていません、サイト移動をするとデータがリセットされます！</p>
+      </header>
+
+      <section id="menu-bar">
+        <div class="alert bg-info text-black fade show rounded-0" role="alert">
+          <div class="container">
+            <div class="align-self-center mr-3 text-center">
+              <h3>総合科目</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 教養科目スタート44(42基礎数、基礎物のぞく) -> 63 -->
+      <!--1つの科目のまとまり-->
+      <ul class="list-unstyled row">
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but1" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">教養ゼミⅠ</span>
+            </div>
+          </button>
+        </li>
+        <!--終了-->
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but2" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">教養ゼミⅡ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but3" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">日本事情Ⅰ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but4" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">日本事情Ⅱ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but5" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">経済学Ⅰ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but6" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">経済学Ⅱ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but7" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">社会学Ⅰ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but8" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">社会学Ⅱ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but9" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">法学Ⅰ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but10" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">法学Ⅱ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but11" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">日本国憲法</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but12" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">科学技術と社会</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but13" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">富山と日本海</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but14" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境論Ⅰ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but15" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境論Ⅱ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but16" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">日本語表現法</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but17" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 0px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">コミュニケーション論</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but18" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">文学Ⅰ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but19" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">文学Ⅱ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but20" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">比較文化学Ⅰ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but21" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">比較文化学Ⅱ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but22" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">人間と文化</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but23" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">近現代史</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but24" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">国際関係論</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but25" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 0px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">海外留学科目(中国)</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but26" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 0px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">海外留学科目(米国)</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but27" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">健康科学演習</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but28" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">心理学Ⅰ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but29" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">心理学Ⅱ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but30" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 10px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">コミュニケーションの社会学</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but31" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">倫理学</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but32" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">哲学</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but33" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">健康科学Ⅰ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but34" class="btn btn-outline-info text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">健康科学Ⅱ</span>
+            </div>
+          </button>
+        </li>
+      </ul>
+      <!--総合科目終了-->
+
+      <!--基礎科目-->
+      <section id="menu-bar">
+        <div class="alert bg-success text-black fade show rounded-0" role="alert">
+          <div class="container">
+            <div class="align-self-center mr-3 text-center">
+              <h3>基礎科目</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <ul class="list-unstyled row">
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but35" class="btn btn-outline-success text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">数学Ⅰ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but36" class="btn btn-outline-success text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">数学Ⅱ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but37" class="btn btn-outline-success text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">物理学Ⅰ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but38" class="btn btn-outline-success text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">物理学Ⅱ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but39" class="btn btn-outline-success text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">化学Ⅰ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but40" class="btn btn-outline-success text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">化学Ⅱ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but41" class="btn btn-outline-success text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">生物学</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but42" class="btn btn-outline-success text-center">
+            <div class=" rounded mb-2" style="padding: 50px 10px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">化学演習</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but43" class="btn btn-outline-success text-center">
+            <div class=" rounded mb-2" style="padding: 50px 10px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">数学物理学演習</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but44" class="btn btn-outline-success text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">物理実験</span>
+            </div>
+          </button>
+        </li>
+      </ul>
+
+      <!--卒業単位数に含まない-->
+
+      <div class="container">
+        <div class="border border-success border-4 mb-4 d-flex justify-content-between" style="padding:10px;">専門基礎科目</div>
+      </div>
+
+      <ul class="list-unstyled row">
+       <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but45" class="btn btn-outline-success text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">基礎物理学</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but46" class="btn btn-outline-success text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">基礎化学</span>
+            </div>
+          </button>
+        </li>
+      </ul>
+
+        <!--but47は永久欠番-->
+        
+      <!--基礎科目終了-->
+
+      <!--英語開始-->
+      <section id="menu-bar">
+        <div class="alert bg-warning text-black fade show rounded-0" role="alert">
+          <div class="container">
+            <div class="align-self-center mr-3 text-center">
+              <h3>英語</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <ul class="list-unstyled row">
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but48" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">英語基礎1</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but49" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">英語基礎2</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but50" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">英語基礎3</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but51" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">英語基礎4</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but52" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">総合英語1</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but53" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">総合英語2</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but54" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">総合英語3</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but55" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">総合英語4</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but56" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">英語特別演習1</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but57" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">英語特別演習2</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but58" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">英語特別演習3</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but59" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">英語特別演習4</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but60" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 10px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">海外語学研修科目</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but61" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">英語入門1</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but62" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">英語入門2</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but63" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">ドイツ語Ⅰ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but64" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">ドイツ語Ⅱ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but65" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">中国語Ⅰ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but66" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">中国語Ⅱ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but67" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">日本語Ⅰ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but68" class="btn btn-outline-warning text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">日本語Ⅱ</span>
+            </div>
+          </button>
+        </li>
+      </ul>
+      <!--英語終了-->
+
+      <!--専門科目-->
+      <section id="menu-bar">
+        <div class="alert bg-primary text-black fade show rounded-0" role="alert">
+          <div class="container">
+            <div class="align-self-center mr-3 text-center">
+              <h3>専門科目</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="border border-primary border-4 mb-4 d-flex justify-content-between" style="padding:10px;">専門基礎科目
+          <span id="sb">0/39</span>
+        </div>
+      </div>
+
+      <!--sb-->
+      <ul class="list-unstyled row">
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but69" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1.5単位</small>
+              <span class="text-black">工業数学1及び演習</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but70" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1.5単位</small>
+              <span class="text-black">工業数学2及び演習</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but71" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1.5単位</small>
+              <span class="text-black">工業数学3及び演習</span>
+            </div>
+          </button>
+        </li>
+
+        <!--ミス科目
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but72" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">情報数学2</span>
+            </div>
+          </button>
+        </li>
+        -->
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but73" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境工学概論</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but74" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">社会基盤工学概論</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but75" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境水質学1</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but76" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境水質学2</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but77" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">環境水質実験1</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but78" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">環境水質実験2</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but79" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境基礎生物学</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but80" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境微生物学</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but81" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1.5単位</small>
+              <span class="text-black">環境物理化学及び演習</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but82" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">水理学1</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but83" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">水理学2</span>
+            </div>
+          </button>
+        </li>
+
+        <!--but84永久欠番-->
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but85" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">構造力学1</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but86" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">構造力学2</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but87" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">土質力学</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but88" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">測量学1</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but89" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">測量学2</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but90" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">測量実習1</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but91" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">測量実習2</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but92" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">環境情報解析実習</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but93" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境プログラミング</span>
+            </div>
+          </button>
+        </li>
+        </ul>
+
+        <!--専門基礎科目-->
+
+        <!--下から2単位以上 sp1-->
+
+        <div class="container">
+          <div class="border border-primary border-4 mb-4 d-flex justify-content-between" style="padding:10px;">専門科目)下から2単位以上
+            <span id ="sp1">0/2</span>
+          </div>
+        </div>
+
+      <ul class="list-unstyled row">
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but94" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境計測学</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but95" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">水質工学1</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but96" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">水質工学2</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but97" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境質評価額</span>
+            </div>
+          </button>
+        </li>
+        </ul>
+        <!--終了-->
+
+        <!--下から１単位以上 sp2-->
+
+        <div class="container">
+          <div class="border border-primary border-4 mb-4 d-flex justify-content-between" style="padding:10px;">実験科目)下から1単位以上
+            <span id="sp2">0/1</span>
+          </div>
+        </div>
+
+        <ul class="list-unstyled row">
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but98" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">水理実験</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but99" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">環境工学実験</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but100" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">環境材料実験</span>
+            </div>
+          </button>
+        </li>
+        </ul>
+
+        <!--終了-->
+
+        <!--下から2単位以上 sp3-->
+        <div class="container">
+          <div class="border border-primary border-4 mb-4 d-flex justify-content-between" style="padding:10px;">専門科目)下から2単位以上
+            <span id ="sp3">0/2</span>
+          </div>
+        </div>
+
+        <ul class="list-unstyled row">
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but101" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">水園生物実験</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but102" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">物理循環解析演習</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but103" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">環境計画実習</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but104" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">構造設計演習</span>
+            </div>
+          </button>
+        </li>
+      </ul>
+
+        <!--終了-->
+
+        <!--下から2単位以上 sp4-->
+
+        <div class="container">
+          <div class="border border-primary border-4 mb-4 d-flex justify-content-between" style="padding:10px;">専門科目)下から2単位以上
+            <span id="sp4">0/2</span>
+          </div>
+        </div>
+
+        <ul class="list-unstyled row">
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but105" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境エネルギー論</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but106" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境マネジメント</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but107" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境政策論</span>
+            </div>
+          </button>
+        </li>
+        </ul>
+
+        <!--終了-->
+
+        <!--下から2単位以上 sp5-->
+        <div class="container">
+          <div class="border border-primary border-4 mb-4 d-flex justify-content-between" style="padding:10px;">専門科目)下から2単位以上
+            <span id="sp5">0/2</span>
+          </div>
+        </div>
+
+      <ul class="list-unstyled row">
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but108" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">ビオトープ論</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but109" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">河海工学</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but110" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境計画学</span>
+            </div>
+          </button>
+        </li>
+      </ul>
+
+        <!--終了-->
+
+        <!--その他の科目 sp-->
+        <div class="container">
+          <div class="border border-primary border-4 mb-4 d-flex justify-content-between" style="padding:10px;">上記以外の専門科目
+            <span id="sp">0/36</span>
+          </div>
+        </div>
+
+        <ul class="list-unstyled row">
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but111" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">水園生物学</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but112" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">資源循環工学</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but113" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">資源循環工学実験演習</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but114" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">物質循環解析</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but115" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境化学工学</span>
+            </div>
+          </button>
+        </li>
+
+        <!--116~125はキャリア科目-->
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but126" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">大気環境管理</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but127" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境修復工学</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but128" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境リスク工学</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but129" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">森林流域管理</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but130" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">地理情報システム</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but131" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">環境材料学</span>
+            </div>
+          </button>
+        </li>
+
+        <!--モレのため136-->
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but136" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">地盤防災工学</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but132" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">社会基盤メンテナンス工学</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but133" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">土木施工管理</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but134" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">専門ゼミ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but135" class="btn btn-outline-primary text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">8単位</small>
+              <span class="text-black">卒業研究</span>
+            </div>
+          </button>
+        </li>
+
+      </ul>
+
+
+      <!-- キャリア形成科目 116-125 -->
+
+      <section id="menu-bar">
+        <div class="alert bg-danger text-black fade show rounded-0" role="alert">
+          <div class="container">
+            <div class="align-self-center mr-3 text-center">
+              <h3>キャリア形成科目</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <ul class="list-unstyled row">
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but116" class="btn btn-outline-danger text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">キャリア形成論</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but117" class="btn btn-outline-danger text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">トピックゼミⅠ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but118" class="btn btn-outline-danger text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">トピックゼミⅡ</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but119" class="btn btn-outline-danger text-center">
+            <div class=" rounded mb-2" style="padding: 50px 10px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">プレゼンテーション演習</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but120" class="btn btn-outline-danger text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">技術者倫理</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but121" class="btn btn-outline-danger text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">企業経営概論</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but122" class="btn btn-outline-danger text-center">
+            <div class=" rounded mb-2" style="padding: 50px 0px;">
+              <small class="text-black d-block">2単位</small>
+              <span class="text-black">インターンシップA</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but123" class="btn btn-outline-danger text-center">
+            <div class=" rounded mb-2" style="padding: 50px 0px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">インターンシップB</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but124" class="btn btn-outline-danger text-center">
+            <div class=" rounded mb-2" style="padding: 50px 25px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">技術英語</span>
+            </div>
+          </button>
+        </li>
+
+        <li class="col-lg-2 col-sm-4 text-center mb-4">
+          <button type="button" id="but125" class="btn btn-outline-danger text-center">
+            <div class=" rounded mb-2" style="padding: 50px 0px;">
+              <small class="text-black d-block">1単位</small>
+              <span class="text-black">英語資格対策ゼミ</span>
+            </div>
+          </button>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <section id="Number-of-credits-earned" class="u-content-space-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="list-group">
+            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center active">
+              総合科目
+              <span id="Comprehensive">0/19</span>
+            </a>
+            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+              人間
+              <span id="human">0/2</span>
+            </a>
+            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+              社会・環境
+              <span id="social">0/6</span>
+            </a>
+            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+              人間・文化
+              <span id="culture">0/4</span>
+            </a>
+            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+              精神・身体
+              <span id="body">0/3</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="list-group">
+            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center active">
+              教養科目
+              <span id="liberal-arts">0/44</span>
+            </a>
+            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+              総合科目
+              <span id="Comprehensive-1">0/19</span>
+            </a>
+            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+              基礎科目
+              <span id="basic">0/13</span>
+            </a>
+            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+              外国語科目(第二外国語含む)
+              <span id="english">0/12</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="list-group">
+            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center active">
+              卒業要件単位
+              <span id="graduation">0/130</span>
+            </a>
+            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+              教養科目
+              <span id="liberal-arts-1">0/44</span>
+            </a>
+            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+              専門科目
+              <span id="specialized-unit">0/79</span>
+            </a>
+            <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+              キャリア形成科目
+              <span id="career">0/7</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="align-self-center mr-3 text-center">
+        <iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?o=9&p=48&l=ur1&category=musicunlimited&banner=0MV0DV8Z54QXBKCD4982&f=ifr&linkID=fe76ee231648dfe0fc5e292d315ebb3d&t=ayudai0216-22&tracking_id=ayudai0216-22" width="728" height="90" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+      </div>
+      <div class="align-self-center mr-3 text-center mt-4">
+        <iframe src="https://rcm-fe.amazon-adsystem.com/e/cm?o=9&p=48&l=ez&f=ifr&linkID=b58b38a2c296315f728c824f2e85fa6d&t=ayudai0216-22&tracking_id=ayudai0216-22" width="728" height="90" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark pb-4" role="footer">
+    <div class="container-fluid">
+      <!-- Copyright and Social Icons -->
+      <div class="row px-md-3 mt-4">
+        <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+          <h3 class="text-white mt-4">Millennium Zone</h3>
+        </div>
+
+        <div class="col-md-6 align-self-center">
+          <ul class="list-inline text-center text-md-right mb-0 mt-4">
+            <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Instagram">
+              <a class="text-white" target="_blank" href="https://www.instagram.com/tpu_market/?hl=ja">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Twitter">
+              <a class="text-white" target="_blank" href="https://twitter.com/Millennium_Zone">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <!--
+            <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Dribbble">
+              <a class="text-white" target="_blank" href="https://dribbble.com/htmlstream">
+                <i class="fab fa-dribbble"></i>
+              </a>
+            </li>
+            -->
+          </ul>
+        </div>
+      </div>
+      <!-- End Copyright and Social Icons -->
+    </div>
+  </footer>
+
+</body>
+</html>
+
+<!--jsファイル-->
+<script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/color-change.js"></script>
+<script src="js/unit-calculation.js"></script>
+<script src="js/bootstrap.min.js"></script>
